@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.box {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px;
+    margin-bottom: 30px;
+    border: 2px dashed red;
+    background-color: green;
+}
+
+
+p {
+    height: 50vh;
+    width: 50vw;
+    text-align: justify;
+}
+
+.pic_1 {
+    margin: 0px 20px 20px 0px;
+    float: left;
+}
+.pic_2 {
+    height: 150px;
+    width: 250px;
+    margin: 20px 0px 20px 20px;
+    float: right;
+}
